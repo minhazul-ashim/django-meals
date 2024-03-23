@@ -25,5 +25,9 @@
     <h2>{{ items | unordered_list }}</h2>
     <h2>{{ food | upper }}</h2>
     <h2>{{ food | wordcount }}</h2>
+    <h2>{{ food | truncatechars:7 }}</h2>
+    <h2>{{ food | striptags }}</h2>
+    <h2>{{ food | make_list }}</h2>
+    <h2>You have {{ value }} message{{ value | pluralize }}</h2>
   </body>
 </html>
