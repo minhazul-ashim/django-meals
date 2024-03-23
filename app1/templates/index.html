@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>{{ food | center:"25" }}</h2>
+    <h2>{{ food | cut:" " }}</h2>
+    <h2>{{ food | default:"No food available" }}</h2>
+    <h2>{{ value | divisibleby:"3" }}</h2>
+    <h2>{{ items | first }}</h2>
+    <h2>{{ items | join:", " }}</h2>
+    <h2>{{ items | last }}</h2>
+    <h2>{{ items | length }}</h2>
+    <h2>{{ food | linenumbers }}</h2>
+    <h2>{{ food | lower }}</h2>
+    <h2>{{ text | make_list }}</h2>
+    <h2>{{ items | random }}</h2>
+    <h2>{{ items | slice:"2:5" }}</h2>
+    <h2>{{ food | slugify }}</h2>
+    <h2>{{ time | time }}</h2>
+    <h2>{{ food | title }}</h2>
+    <h2>{{ items | unordered_list }}</h2>
+    <h2>{{ food | upper }}</h2>
+    <h2>{{ food | wordcount }}</h2>
+  </body>
+</html>
